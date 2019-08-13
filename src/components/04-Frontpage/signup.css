@@ -1,0 +1,11 @@
+.signup {
+  display: flex;
+  border: 10px solid #24f1ff;
+  padding: 10px;
+  grid-column: 2/6;
+  grid-row: 4/5;
+  margin: 10px;
+  background-color: white;
+  justify-content: center;
+  font-size: vw;
+} 

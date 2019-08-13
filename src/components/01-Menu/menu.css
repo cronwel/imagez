@@ -1,0 +1,15 @@
+.menu {
+    grid-column: 3/6;
+    grid-row: 5/6;
+    border: 10px solid #24f1ff;
+    /* margin: 10px; */
+    margin-left: 10px;
+    background-color: white;
+    text-justify: auto;
+}
+
+a {
+    grid-template-rows: 1fr 1fr 1fr;
+    text-decoration: none;
+    word-spacing: 2vw;
+}

@@ -1,0 +1,10 @@
+
+.download {
+  border-left: 10px solid #24f1ff;
+  border-right: 10px solid #24f1ff;
+  grid-column: 2/3;
+  grid-row: 5/6;
+  font-family: MinistryofMoron;
+  color: #ff0000;
+  font-size: 1fr;
+}

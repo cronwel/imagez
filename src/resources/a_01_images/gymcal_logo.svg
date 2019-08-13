@@ -1,0 +1,35 @@
+
+<svg width="175px" height="230px" viewBox="0 0 175 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-14.4%" y="-5.6%" width="128.9%" height="115.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1.000000, -21.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(14.000000, 21.000000)">
+                <path d="M1.25,9 L1.25,210.343511" id="Line-3" stroke="#24F1FF" stroke-width="8" stroke-linecap="square" fill-rule="nonzero"></path>
+                <path d="M147.25,9 L147.25,210.343511" id="Line-3" stroke="#24F1FF" stroke-width="8" stroke-linecap="square" fill-rule="nonzero"></path>
+                <polygon id="Triangle" stroke="#24F1FF" stroke-width="8" fill-rule="nonzero" transform="translate(46.500000, 106.000000) scale(1, -1) translate(-46.500000, -106.000000) " points="46.5 92 64 120 29 120"></polygon>
+                <polygon id="Triangle" stroke="#24F1FF" stroke-width="8" fill-rule="nonzero" transform="translate(102.500000, 106.000000) scale(1, -1) translate(-102.500000, -106.000000) " points="102.5 92 120 120 85 120"></polygon>
+                <path d="M74.6666667,106.653846 L74.6666667,174" id="Line-5" stroke="#24F1FF" stroke-width="8" stroke-linecap="square" fill-rule="nonzero"></path>
+                <circle id="Oval" stroke="#24F1FF" stroke-width="8" fill-rule="nonzero" cx="74.5" cy="66.5" r="10.5"></circle>
+                <path d="M1.65765766,90 L146.342342,90" id="Line-4" stroke="#24F1FF" stroke-width="8" stroke-linecap="square" fill-rule="nonzero"></path>
+                <text id="Cal" font-family="MinistryofMoron, Ministry of Moron" font-size="44" font-weight="normal" fill="#24F1FF">
+                    <tspan x="17.1328125" y="214">Cal</tspan>
+                </text>
+                <text id="Gym" font-family="MinistryofMoron, Ministry of Moron" font-size="40" font-weight="normal" fill="#24F1FF">
+                    <tspan x="18.71875" y="34">Gym</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

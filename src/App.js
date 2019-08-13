@@ -1,17 +1,26 @@
 import React, { Component } from 'react';
-
 import './App.css';
-
+import Menu from './components/01-Menu/Menu';
+import { ReactComponent as Logo } from './resources/a_01_images/gymcal_logo.svg';
+import Signup from './components/04-Frontpage/signup';
+import Credits from './components/04-Frontpage/credits';
+import Download from './components/04-Frontpage/download';
+import Tagline from './components/04-Frontpage/tagline';
+import axios from 'axios';
 class App extends Component {
+
+  componentDidMount() {
+    axios.get('/profile/')
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Logo className="logoStyle" />
+        <Tagline />
+        <Menu />
+        <Signup />
+        <Credits />
+        <Download />
       </div>
     );
   }
