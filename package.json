@@ -1,6 +1,9 @@
 {
   "name": "imagez",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.7.0"
+  },
   "private": true,
   "dependencies": {
     "npm": "^6.10.3",
