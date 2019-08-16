@@ -1,5 +1,5 @@
 .signup {
-  display: flex;
+  /* display: flex; */
   border: 10px solid #24f1ff;
   padding: 10px;
   grid-column: 2/6;
@@ -9,3 +9,10 @@
   justify-content: center;
   font-size: vw;
 } 
+
+@media screen and (max-width: 417px) {
+  .signup {
+    grid-column: 1/6;
+    grid-row: 4/5;
+  }
+}

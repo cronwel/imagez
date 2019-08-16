@@ -2,9 +2,21 @@
 .download {
   border-left: 10px solid #24f1ff;
   border-right: 10px solid #24f1ff;
-  grid-column: 2/3;
-  grid-row: 5/6;
+  grid-column: 5/6;
+  grid-row: 3/4;
   font-family: MinistryofMoron;
   color: #ff0000;
   font-size: 1fr;
+}
+@media screen and (max-width: 768px) {
+  .download {
+    grid-column: 4/5;
+    grid-row: 3/4;
+  }
+}
+@media screen and (max-width: 417px) {
+  .download {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
 }

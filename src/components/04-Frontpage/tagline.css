@@ -1,10 +1,23 @@
 .tagline { 
   font-family: MinistryofMoron;
-  font-size: 44px;
+  font-size: 3.vh;
   color: #FF2200;
   letter-spacing: 5px;
   text-shadow: 6px 5px 6px rgba(0,0,0,0.50);
   grid-column: 4/7;
   grid-row: 2/3;
   text-align: left;
+}
+@media screen and (max-width: 748px) {
+  .tagline { 
+    font-size: 4.5vw;
+    grid-column: 3/7;
+    grid-row: 2/3;
+  }
+}
+@media screen and (max-width: 417px) {
+  .tagline { 
+    grid-column: 2/7;
+    grid-row: 2/3;
+  }
 }
