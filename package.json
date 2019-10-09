@@ -6,6 +6,7 @@
   },
   "private": true,
   "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
     "npm": "^6.10.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -29,5 +30,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.16.0"
   }
 }
